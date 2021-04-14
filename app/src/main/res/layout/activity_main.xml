@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent" android:paddingLeft= "50dp"
+    android:paddingRight = "50dp"
+    android:paddingTop = "20dp"
+    android:paddingBottom = "20dp" tools:context = ".MainActivity">
+
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Login Permission"
+        android:id = "@+id/app_tv"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#242523"
+        android:textSize = "35dp" />
+
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Login conditions:\n batterty level :at least 50% \n
+Flash light: open \n phone Parallel to the floor"
+        android:id = "@+id/description"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/app_tv"
+        android:layout_centerHorizontal = "true"
+        android:textColor = "#242523"
+        android:textSize = "25dp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_marginTop = "46dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/description"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/lock" />
+
+    <Button
+        android:id="@+id/Login_Button"
+        android:layout_width="230dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginBottom="-218dp"
+        android:text="Login" />
+
+
+
+
+</RelativeLayout>
